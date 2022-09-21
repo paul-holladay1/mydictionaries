@@ -32,18 +32,3 @@ def main():
 main()
 
 
-# def encryption(code):
-
-#     infile = open('info_security.txt', 'r')
-#     infile_read = infile.read()
-
-#     file_encryption = open('encrypter.txt', 'w')
-
-#     for i in infile_read:
-#         if i in code:
-#             file_encryption.write(code[i])
-#         else:
-#             file_encryption.write(i)
-
-#     file_encryption.close()
-
